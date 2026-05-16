@@ -1,17 +1,17 @@
-<h1 align="center">Code Reviewer</h1>
+<h1 align="center">🚀 CodeReviewer</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Comunidade-Juninhos-7B2CBF?style=for-the-badge&logo=discord&logoColor=white" alt="Juninhos Community" />
-  <img src="https://img.shields.io/badge/Status-[Inserir%20Status]-orange?style=for-the-badge" alt="Status" />
+  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-orange?style=for-the-badge" alt="Status" />
 </p>
 
 ---
 
 ## 📝 Sobre o Projeto
 
-Espaço colaborativo para solicitar revisões de código e receber feedback técnico da comunidade.
+O **CodeReviewer** é um espaço colaborativo projetado para que desenvolvedores possam solicitar revisões de código de forma prática e receber feedback técnico qualificado da comunidade. A plataforma visa promover a mentoria coletiva, disseminar boas práticas de programação, elevar a qualidade do software produzido e acelerar o aprendizado técnico através da troca de experiências entre desenvolvedores de diferentes níveis.
 
-Este projeto está sendo desenvolvido de forma 100% colaborativa dentro do ecossistema da **Comunidade Juninhos**. Nosso objetivo primordial é aplicar conceitos modernos de engenharia de software para entregar uma solução robusta, escalável e com impacto real.
+Este projeto está sendo construído de forma 100% colaborativa dentro do ecossistema da **Comunidade Juninhos**. Nosso foco primordial é aplicar conceitos modernos de engenharia de software para entregar uma solução robusta, de alta performance e com excelente usabilidade.
 
 > 💡 **Nota do Squad:** Este README serve como um documento vivo. Ele será atualizado continuamente conforme novas funcionalidades forem integradas nas sprints de 30 dias.
 
@@ -30,12 +30,13 @@ O projeto foi estruturado seguindo os conceitos de **modularização**, alta coe
 
 ## 📌 Funcionalidades Principais
 
-Aqui está o mapeamento de recursos que estão sendo construídos ou planejados para o projeto:
+Aqui está o mapeamento de recursos que estão sendo construídos ou planejados para a plataforma CodeReviewer:
 
-- [ ] 🔐 **Funcionalidade 1:** [Breve descrição do recurso ou módulo]
-- [ ] 👥 **Funcionalidade 2:** [Breve descrição do recurso ou módulo]
-- [ ] ⚙️ **Funcionalidade 3:** [Breve descrição do recurso ou módulo]
-- [ ] 📊 **Funcionalidade 4:** [Breve descrição do recurso ou módulo]
+- [ ] 🔐 **Sistema de Autenticação:** Login e Cadastro unificados via abas dinâmicas (Tabs sem recarregamento).
+- [ ] 💻 **Solicitação de Code Review:** Interface dedicada para submissão de trechos de código ou links de repositórios, permitindo detalhar o contexto e as dúvidas da revisão.
+- [ ] 💬 **Feedback Técnico Estruturado:** Sistema de comentários focado e revisões detalhadas para sugerir melhorias de performance, legibilidade e segurança.
+- [ ] 🔍 **Filtros por Tecnologia:** Mecanismo de busca e categorização para encontrar solicitações de revisão por linguagem de programação ou framework específico.
+- [ ] 🏅 **Ecossistema de Badges:** Gamificação integrada para recompensar o progresso técnico e o engajamento do squad na comunidade.
 
 ---
 
@@ -52,12 +53,12 @@ Antes de começar, você vai precisar ter instalado em sua máquina:
 
 1. Clone o repositório oficial dentro da organização Juninhos:
    ```bash
-   git clone [URL-DO-REPOSITORIO-AQUI]
+   git clone [https://github.com/juninhos-comunidade/code-reviewer.git](https://github.com/juninhos-comunidade/code-reviewer.git)
    ```
 
 2. Acesse a pasta do projeto:
    ```bash
-   cd [NOME-DA-PASTA-DO-PROJETO]
+   cd code-reviewer
    ```
 
 3. Instale todas as dependências necessárias:
@@ -91,9 +92,9 @@ git checkout -b feature/minha-tarefa
 
 ### 2. Padrão de Commits
 Os commits devem ser claros, em português e indicar a intenção da alteração:
-* `feat: [breve descrição do novo recurso adicionado]`
-* `fix: [breve descrição do bug corrigido]`
-* `style: [breve descrição da alteração estética ou de formatação]`
+* `feat: adiciona editor de texto para trechos de codigo`
+* `fix: corrige renderizacao dos blocos de codigo nos comentarios`
+* `style: padroniza a exibicao das tags de linguagens`
 
 ### 3. Revisão de Código (Pull Requests)
 * Nunca faça o merge direto na branch principal.
@@ -103,14 +104,15 @@ Os commits devem ser claros, em português e indicar a intenção da alteração
 
 ## 👥 Nosso Squad
 
-Um projeto completo só ganha vida com uma equipe sintonizada. Conheça as mentes por trás do desenvolvimento:
+Um projeto completo só ganha vida com uma equipe sintonizada. Conheça as mentes por trás do desenvolvimento da plataforma:
 
 | Avatar | Membro | Função / Especialidade | GitHub |
 | :---: | :--- | :--- | :--- |
-| <img src="https://github.com/github.png" width="40" style="border-radius:50%"/> | [Nome do Integrante 1] | Pendente | ... |
-| <img src="https://github.com/github.png" width="40" style="border-radius:50%"/> | [Nome do Integrante 2] | Pendente | ... |
-| <img src="https://github.com/github.png" width="40" style="border-radius:50%"/> | [Nome do Integrante 3] | Pendente | ... |
-| <img src="https://github.com/github.png" width="40" style="border-radius:50%"/> | [Nome do Integrante 4] | Pendente | ... |
+| <img src="https://github.com/github.png" width="40" style="border-radius:50%"/> | **Lucas Daniel Lopes Brasileiro** | Pendente | ... |
+| <img src="https://github.com/github.png" width="40" style="border-radius:50%"/> | **João Victor** | Pendente | ... |
+| <img src="https://github.com/github.png" width="40" style="border-radius:50%"/> | **Victor Aleira** | Pendente | ... |
+| <img src="https://github.com/github.png" width="40" style="border-radius:50%"/> | **Wilson Yuri** | Pendente | ... |
+| <img src="https://github.com/github.png" width="40" style="border-radius:50%"/> | **Gustavo** | Pendente | ... |
 
 ---
 
@@ -123,8 +125,5 @@ Este projeto é de uso exclusivo e educacional dos membros vinculados à **Junin
 ## 🤝 Apoio e Organização
 
 Este projeto é desenvolvido e mantido pelos membros da **Juninhos Community**.
-Se precisar de suporte técnico, mentoria de deploy ou dúvidas sobre infraestrutura, use os canais oficiais no Discord:
-* 💬 `#suporte`
-* 💬 `#geral`
-
-**Bora transformar ideias em código! [++]**
+Se precisar de suporte técnico, mentoria de deploy ou dúvidas sobre infraestrutura, use os canais oficiais no Discord.
+```
